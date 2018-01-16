@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("go-crc32: %d \n ",crc32.Checksum([]byte{179}, crc32.MakeTable(crc32.Castagnoli)))
+	fmt.Printf("go-crc32: %d xx\n ",crc32.Checksum([]byte{179}, crc32.MakeTable(crc32.Castagnoli)))
 }
